@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  li, a {
+    font-size: 22px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  li:hover {
+    color: #445626;
+  }
+  header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 10px ;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: rgba($color: #000000, $alpha: 0.15);
+    position: fixed;
+    top: 0;
+  }
+  h1 {
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .abrigo {
+    color: #445626;
+  }
+  .navbar {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+  }
+  .navbar li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  section {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-45deg, #7BD5F5, #787FF6, #4ADEDE, #1CA7EC, #1F2F98);
+    background-size: 400% 400%;
+    width: 100%;
+    animation: animate 10s ease infinite;
+  }
+  .greeting {
+    position: relative;
+    padding: 35vh;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 40px;
+  }
+  .about-me {
+    min-height: 100vh;
+  }
+  @keyframes animate {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+  }
