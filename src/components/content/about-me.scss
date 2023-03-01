@@ -1,0 +1,19 @@
+.about-me-context{
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 25px;
+    .left {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+    .right {
+        flex: 1;
+        display: flex;
+        justify-content: left;
+        margin: auto;
+        font-size: 15px;
+
+    }
+}

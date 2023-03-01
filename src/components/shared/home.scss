@@ -45,7 +45,7 @@
   section {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(-45deg, #7BD5F5, #787FF6, #4ADEDE, #1CA7EC, #1F2F98);
+    background: linear-gradient(-45deg, #02231c, #004d25, #11823b, #48bf53, #91f086);
     background-size: 400% 400%;
     width: 100%;
     animation: animate 10s ease infinite;
@@ -57,9 +57,28 @@
     color: white;
     font-size: 40px;
   }
+  .about-me-title {
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .about-me-subhead {
+    font-family: 'Roboto Slab', serif;    
+    font-size: 22px;
+  }
   .about-me {
     min-height: 100vh;
+    padding: 10vh;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;    
+    color: black;
+    font-size: 40px;
   }
+  .profile-img {
+    border: 1px;
+    height: 300px;
+    border-radius: 50%;
+  }
+
   @keyframes animate {
     0%{
         background-position: 0 50%;

@@ -1,0 +1,56 @@
+.skills {
+    height: 100vh;
+    background-color: #11823b;
+    text-align: center;
+}
+.skills-title {
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10vh;
+    padding-bottom: 2vh;
+    text-align: center;
+    color: white;
+  }
+  .skillsCard {
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.25);
+    height: 60vh;
+    width: 75%;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+  
+  .frontEndTitle {
+    padding: 25px;
+  }
+  .skillsImgs {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px
+  }
+  
+  .skillsImgs li {
+    display: inline-block;
+  
+  }
+  .html-icon, .css-icon, .js-icon{
+    height: 6vh;
+  }
+  
+  .backEndTitle {
+    padding-bottom: 25px;
+  }
+  
+  .mongo-icon, .sql-icon {
+    height: 6vh;
+  }
+  
+  .techTitle {
+    padding-bottom: 25px;
+  }
+  
+  .vscode-icon, .postman-icon, .github-icon, .figma-icon {
+    height: 6vh;
+  }
