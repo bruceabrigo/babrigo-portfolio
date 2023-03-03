@@ -2,6 +2,7 @@ import React from "react";
 import './about-me.scss'
 import './skills.scss'
 import './projects.scss'
+import './proj-cards.scss'
 
 import { TypeAnimation } from "react-type-animation";
 
@@ -49,6 +50,7 @@ const Home = () => {
             </div>
             </div>
 
+            {/* ------------- SKILLS ------------- */}
             <div className="skills">
                 <h2 className="skills-title">Skills</h2>
                 <div class="skillsCard">
@@ -79,10 +81,58 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
+            {/* ------------- PROJECTS ------------- */}
             <div className="projects">
                 <h2 className="proj-title">Projects</h2>
                 <p className="proj-desc">Take a look at my highlighted projects!</p>
+                    <div class="container">
+                        <div class="card">
+                            <div class="face face1">
+                            <div class="content">
+                            <img src="/NeatFlightTracker.png"/>
+                            <h3>Neat Flight Tracker</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Technologies: JS, HTML, CSS, Express, Liquid, NoSQL MongoDB</p>
+                            <a href="https://neatflighttracker.fly.dev/" target="_blank">Visit</a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="card">
+                        <div class="face face1">
+                            <div class="content">
+                                <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true"/>
+                                <h3>Code</h3>
+                            </div>
+                        </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                            <a href="#" target="_blank">Read More</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true"/>
+                            <h3>Launch</h3>
+                        </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                                        
+                                    <a href="#" target="_blank">Read More</a>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
             </div>
+
             <footer>Developed and Designed by Bruce Abrigo</footer>
         </>
     )
