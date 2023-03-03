@@ -22,8 +22,9 @@
     overflow-y: scroll;
   }
   
-  .frontEndTitle {
-    padding: 25px;
+  .title {
+    padding-bottom: 15px;
+    color: white;
   }
   .skillsImgs {
     display: flex;
@@ -33,9 +34,9 @@
   
   .skillsImgs li {
     display: inline-block;
-  
+    padding: 0 15px;
   }
-  .html-icon, .css-icon, .js-icon{
+  .icon{
     height: 6vh;
   }
   

@@ -78,7 +78,13 @@
     height: 300px;
     border-radius: 50%;
   }
-
+  footer {
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background-color: #3b3c36;
+    font-family: 'Roboto Slab', serif;    
+  }
   @keyframes animate {
     0%{
         background-position: 0 50%;
@@ -88,5 +94,13 @@
     }
     100%{
         background-position: 0 50%;
+    }
+  }
+  @media only screen and (max-width: 720px) {
+    .greeting {
+      font-size: 20px;
+      text-align: center;
+      padding: 375px 0;
+      position: relative;
     }
   }

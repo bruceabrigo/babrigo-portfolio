@@ -1,6 +1,9 @@
 import React from "react";
 import './about-me.scss'
 import './skills.scss'
+import './projects.scss'
+
+import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
 
@@ -10,7 +13,22 @@ const Home = () => {
             <section>
                 <div className="greeting">
                     <h2 className='greeting-title'>Hi! I'm Bruce.</h2>
-                    <p id="greetingSlider">Software Developer</p>
+                    <div>
+                        <TypeAnimation 
+                            sequence={[
+                                'Software Developer',
+                                2000,
+                                'Front-End Developer',
+                                2000,
+                                'Back-End Developer',
+                                2000,
+                                'Full-Stack Developer',
+                                2000,
+                            ]}
+                            speed={50}
+                            repeat={Infinity}
+                            />
+                    </div>
                 </div>
             </section>
             <div className="about-me">
@@ -30,36 +48,42 @@ const Home = () => {
                 </div>
             </div>
             </div>
+
             <div className="skills">
                 <h2 className="skills-title">Skills</h2>
                 <div class="skillsCard">
-      <h2 class="frontEndTitle">Front End Development</h2>
-    <div class="skillsImgs">
-      <ul>
-        <li> <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="html-icon" className="html-icon"/> </li>
-        <li> <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="css.icon" className="css-icon"/></li>
-        <li> <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png" alt="js-icon" className="js-icon"/></li>
-        <li> <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png" alt="bootstrap-icon" className="js-icon"/></li>
-      </ul>
-    </div>
-      <h2 class="backEndTitle">Back End Development</h2>
-    <div class="skillsImgs">
-      <ul>
-        <li> <img src="https://cdn.iconscout.com/icon/free/png-256/mongodb-5-1175140.png" alt="mongo-icon" className="mongo-icon"/> </li>
-        <li> <img src="https://www.freeiconspng.com/thumbs/sql-server-icon-png/sql-server-icon-png-29.png" alt="sql-icon" className="sql-icon"/></li>
-      </ul>
-    </div>
-      <h2 class="techTitle">Technologies</h2>
-        <div class="skillsImgs">
-          <ul>
-            <li> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" alt="vscode-icon" className="vscode-icon"/> </li>
-            <li> <img src="https://user-images.githubusercontent.com/7853266/44114706-9c72dd08-9fd1-11e8-8d9d-6d9d651c75ad.png" alt="postman-icon" className="postman-icon"/></li>
-            <li> <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github-icon" className="github-icon"/></li>
-            <li> <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt="figma-icon" className="figma-icon"/></li>
-          </ul>
-        </div>
-  </div>
+                <h2 class="title">Front End Development</h2>
+                    <div class="skillsImgs">
+                        <ul className="space-card">
+                            <li> <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="html-icon" className="icon"/> </li>
+                            <li> <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="css.icon" className="icon"/></li>
+                            <li> <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png" alt="js-icon" className="icon"/></li>
+                            <li> <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png" alt="bootstrap-icon" className="icon"/></li>
+                        </ul>
+                    </div>
+                <h2 class="title">Back End Development</h2>
+                <div class="skillsImgs">
+                    <ul>
+                        <li> <img src="https://cdn.iconscout.com/icon/free/png-256/mongodb-5-1175140.png" alt="mongo-icon" className="icon"/> </li>
+                        <li> <img src="https://www.freeiconspng.com/thumbs/sql-server-icon-png/sql-server-icon-png-29.png" alt="sql-icon" className="icon"/></li>
+                    </ul>
+                    </div>
+                    <h2 class="title">Technologies</h2>
+                    <div class="skillsImgs">
+                        <ul>
+                            <li> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" alt="icon" className="vscode-icon"/> </li>
+                            <li> <img src="https://user-images.githubusercontent.com/7853266/44114706-9c72dd08-9fd1-11e8-8d9d-6d9d651c75ad.png" alt="postman-icon" className="icon"/></li>
+                            <li> <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github-icon" className="icon"/></li>
+                            <li> <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt="figma-icon" className="icon"/></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+            <div className="projects">
+                <h2 className="proj-title">Projects</h2>
+                <p className="proj-desc">Take a look at my highlighted projects!</p>
+            </div>
+            <footer>Developed and Designed by Bruce Abrigo</footer>
         </>
     )
 }
