@@ -6,7 +6,7 @@ const Navbar = () => (
     <>
         <header>
             <ul class="navbar">
-                <li>Projects</li>
+                <li> <Link to='/projects' className="nav-list">Projects</Link></li>
                 <li>Skills</li>
             </ul>
             <h1>

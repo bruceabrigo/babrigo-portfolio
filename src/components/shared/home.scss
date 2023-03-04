@@ -4,13 +4,19 @@
     box-sizing: border-box;
   }
 
-  li, a {
+  .nav-list, li, a {
     font-size: 22px;
     font-weight: 400;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
   }
   
+  .nav-list {
+    color: white;
+  }
+  .nav-list:hover {
+    color: #445626;
+  }
   li:hover {
     color: #445626;
   }

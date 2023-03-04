@@ -3,6 +3,8 @@ import './about-me.scss'
 import './skills.scss'
 import './projects.scss'
 import './proj-cards.scss'
+import { Link } from "react-router-dom"
+
 
 import { TypeAnimation } from "react-type-animation";
 
@@ -53,6 +55,7 @@ const Home = () => {
             {/* ------------- SKILLS ------------- */}
             <div className="skills">
                 <h2 className="skills-title">Skills</h2>
+
                 <div class="skillsCard">
                 <h2 class="title">Front End Development</h2>
                     <div class="skillsImgs">
@@ -96,21 +99,22 @@ const Home = () => {
                     </div>
                     <div class="face face2">
                         <div class="content">
-                            <p>Technologies: JS, HTML, CSS, Express, Liquid, NoSQL MongoDB</p>
-                            <a href="https://neatflighttracker.fly.dev/" target="_blank">Visit</a>
+                            <p>Full-Stack web app that allows for the tracking of flight numbers and the creation of users, and forum posts.</p>
+                            <a href="https://neatflighttracker.fly.dev/" target="_blank">Site</a>
+                            <a href="https://github.com/bruceabrigo/FlightTracker-FullStack-App" target="_blank">Repo</a>
                         </div>
                     </div>
                     </div>
                     <div class="card">
                         <div class="face face1">
                             <div class="content">
-                                <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true"/>
-                                <h3>Code</h3>
+                                <img src="/RatchMe.png"/>
+                                <h3>Ratch Me If You Can</h3>
                             </div>
                         </div>
                     <div class="face face2">
                         <div class="content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                            <p>Front-End 2D JavaScript Canvas game with a countdown timer where a player must avoid targets and collect points!</p>
                             <a href="#" target="_blank">Read More</a>
                         </div>
                         </div>
@@ -126,7 +130,7 @@ const Home = () => {
                             <div class="content">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
                                         
-                                    <a href="#" target="_blank">Read More</a>
+                                    <a href="https://bruceabrigo.github.io/ratch-me-if-you-can/" target="_blank">Read More</a>
                                 </div>
                             </div>
                             </div>
