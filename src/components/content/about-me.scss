@@ -1,4 +1,4 @@
-.about-me-context{
+.about-me-context {
     display: flex;
     border-radius: 15px;
     overflow: hidden;
@@ -10,10 +10,13 @@
     }
     .right {
         flex: 1;
-        display: flex;
-        justify-content: left;
         margin: auto;
         font-size: 15px;
-
+    }
+    .right img {
+        margin: 15px;
+    }
+    .right img:hover {
+        filter: invert(0.50);
     }
 }

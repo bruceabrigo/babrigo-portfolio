@@ -48,6 +48,12 @@ const Home = () => {
                         I'm familiar with various programming languages, frameworks, & libraries with an understanding in Computer Science and Cyber Security.
                         As a software developer I have constructed and consumed numerous API's, as well as developed and deployed various front-end and full-stack projects.
                     </p>
+                    <Link to='https://www.linkedin.com/in/bruceabrigo/' target="_blank" >
+                        <img src="/linked-in.png" className="icon"/>
+                    </Link>
+                    <Link to='https://github.com/bruceabrigo' target="_blank" >
+                        <img src="/github.png" className="icon"/>
+                    </Link>
                 </div>
             </div>
             </div>
@@ -115,22 +121,22 @@ const Home = () => {
                     <div class="face face2">
                         <div class="content">
                             <p>Front-End 2D JavaScript Canvas game with a countdown timer where a player must avoid targets and collect points!</p>
-                            <a href="#" target="_blank">Read More</a>
+                            <a href="https://bruceabrigo.github.io/ratch-me-if-you-can/" target="_blank">Play</a>
+                            <a href="https://github.com/bruceabrigo/ratch-me-if-you-can" target="_blank">Repo</a>
                         </div>
                         </div>
                     </div>
                     <div class="card">
                     <div class="face face1">
                         <div class="content">
-                            <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true"/>
-                            <h3>Launch</h3>
+                            <img src="/UserProfile.png"/>
+                            <h3>Socialite</h3>
                         </div>
                         </div>
                         <div class="face face2">
                             <div class="content">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
-                                        
-                                    <a href="https://bruceabrigo.github.io/ratch-me-if-you-can/" target="_blank">Read More</a>
+                                    <p>MERN Social Media Application with user authentication and forum posts.</p>
+                                    <a href="https://github.com/bruceabrigo/App3-Client" target="_blank">Repo</a>
                                 </div>
                             </div>
                             </div>

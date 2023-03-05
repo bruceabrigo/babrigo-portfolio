@@ -6,15 +6,13 @@ const Navbar = () => (
     <>
         <header>
             <ul class="navbar">
-                <li> <Link to='/projects' className="nav-list">Projects</Link></li>
+                <Link to='/projects' className="nav-list">Projects</Link>
                 <li>Skills</li>
             </ul>
-            <h1>
-                Bruce <span class="abrigo"> Abrigo </span>
-            </h1>
+            <Link to='/'> <h1>Bruce <span class="abrigo"> Abrigo </span> </h1></Link>
             <ul class="navbar">
                 <li>About Me</li>
-                <li>Contact</li>
+                <Link to='/contact' className="nav-list">Contact</Link>
             </ul>
         </header>
 
