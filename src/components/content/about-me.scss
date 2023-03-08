@@ -1,8 +1,8 @@
-.about-me-context {
+.about-me-content {
     display: flex;
     border-radius: 15px;
     overflow: hidden;
-    margin: 25px;
+    margin-top: 50px;
     .left {
         flex: 1;
         display: flex;
@@ -20,3 +20,39 @@
         filter: invert(0.50);
     }
 }
+.profile-img {
+    height: 300px;
+    border-radius: 50%;
+  }
+@media only screen and (max-width: 900px) {
+    .about-me-title {
+        font-size: 30px;
+    }
+    .about-me-content {
+        display: inline-block;
+        border-radius: 15px;
+        overflow: hidden;
+        margin: 50px auto;
+        .left {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+        .right {
+            flex: 1;
+            margin: auto;
+            font-size: 10px;
+        }
+        .right img {
+            margin: 15px;
+        }
+        .right img:hover {
+            filter: invert(0.50);
+        }
+    }
+    .profile-img {
+        height: 150px;
+        border-radius: 50%;
+        margin-bottom: 15px;
+      }
+  }
