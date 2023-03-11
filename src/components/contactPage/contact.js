@@ -1,9 +1,12 @@
 import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser';
+import { useNavigate } from 'react-router-dom';
 import './contact.scss'
+
 
 const Contact = (props) => {
     const form = useRef();
+    const navigate = useNavigate()
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -11,9 +14,11 @@ const Contact = (props) => {
         emailjs.sendForm(`${process.env.REACT_APP_SERVICE_ID}`, `${process.env.REACT_APP_TEMPLATE_ID}`, form.current, `${process.env.REACT_APP_PUBLIC_KEY}`)
           .then((result) => {
               console.log(result.text);
-          }, (error) => {
+          })
+          .then(() => navigate('/thank-you'))
+           .catch((error) => {
               console.log(error.text);
-          });
+          })
       };
 
   return (
@@ -31,7 +36,7 @@ const Contact = (props) => {
                         <input type="text" name="from_name" placeholder='name'/>
                         <hr/>
                         <br/>
-                        <input type="email" name="from_email" placeholder='email'/>
+                        <input type="email" name="reply_to" placeholder='email'/>
                         <hr/>
                         <br/>
                         <textarea name="message" placeholder="What's on your mind?"/>

@@ -1,0 +1,39 @@
+.thank-you-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(40deg, #3984ba, #329d9c, #4ab589, #78e495, #cff4d2);
+    width: 70%;
+    height: 70%;
+    border-radius: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanks-content {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+.thanks-content h1 {
+    font-size: 45px;
+}
+.thanks-content p {
+    margin-bottom: 25px;
+}
+.returnbtn {
+    color: white;
+    height: 30px;
+    background-color: black;
+    padding: 15px;
+    margin: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .thanks-content h1 {
+        font-size: 30px;
+    }
+}
