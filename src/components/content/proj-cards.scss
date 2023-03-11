@@ -1,7 +1,7 @@
 
 .container{
 margin: auto;
-width: 1000px;
+width: 80%;
 position: relative;
 display: flex;
 justify-content: space-between;
@@ -106,6 +106,15 @@ color: #fff;
 }
 
 @media only screen and (max-width: 900px) {
-    .container {
+    .projects {
+        height: 100%;
     }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto; /* to center the container horizontally */
+      }      
+      
   }

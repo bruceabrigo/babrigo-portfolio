@@ -49,6 +49,9 @@
 @media only screen and (max-width: 900px) {
     .projects-page-card {
         width: 350px;
-        height: 500px;
+        height: 350px;
+    }
+    .projects-page-card img {
+        height: 200px;
     }
   }

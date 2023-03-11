@@ -22,6 +22,12 @@ const Projects = () => {
                 <a href="https://bruceabrigo.github.io/ratch-me-if-you-can/" target="_blank" className="project-link">Play</a>
                 <a href="https://github.com/bruceabrigo/ratch-me-if-you-can" target="_blank" className="project-link">Repo</a>
             </div>
+            <div className="projects-page-card">
+                <img src="/TicTacToe.png"/>
+                <h3>Tic Tac Toe</h3>
+                <a href="https://bruceabrigo.github.io/TicTacToe/" target="_blank" className="project-link">Play</a>
+                <a href="https://github.com/bruceabrigo/TicTacToe" target="_blank" className="project-link">Repo</a>
+            </div>
         </>
     )
 }
