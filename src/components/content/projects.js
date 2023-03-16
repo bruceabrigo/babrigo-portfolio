@@ -5,6 +5,12 @@ const Projects = () => {
     return (
         <>
             <div className="projects-page-card">
+                <img src="/BabrigoMedia.png"/>
+                <h3>BAbrigo Media</h3>
+                <a href="https://babrigo-media.onrender.com" target="_blank" className="project-link">Site</a>
+                <a href="https://github.com/bruceabrigo/babrigo-media" target="_blank" className="project-link">Repo</a>
+            </div>
+            <div className="projects-page-card">
                 <img src="/NeatFlightTracker.png"/>
                 <h3>Neat Flight Tracker</h3>
                 <a href="https://neatflighttracker.fly.dev/" target="_blank" className="project-link">Site</a>

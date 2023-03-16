@@ -144,15 +144,15 @@ const Home = () => {
                     <div className="card">
                         <div className="face face1">
                             <div className="content">
-                                <img src="/UserProfile.png"/>
-                                <h3>Socialite</h3>
+                                <img src="/BabrigoMedia.png"/>
+                                <h3>BAbrigo Media</h3>
                             </div>
                         </div>
                     <div className="face face2">
                         <div className="content">
-                                <p>MERN Social Media Application with user authentication and forum posts.</p>
-                                <a href="https://socialitemedia.netlify.app/" target="_blank">Site</a>
-                                <a href="https://github.com/bruceabrigo/App3-Client" target="_blank">Repo</a>
+                                <p>DJango photography website that showcases photography portfolios</p>
+                                <a href="https://babrigo-media.onrender.com" target="_blank">Site</a>
+                                <a href="https://github.com/bruceabrigo/babrigo-media" target="_blank">Repo</a>
                             </div>
                         </div>
                     </div>
