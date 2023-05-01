@@ -3,6 +3,7 @@ import './thankYou.scss'
 
 const Thanks = () => {
 
+    // no need for props here, we only want a redirect and thank you message prompting user that I will be back in touch
     return (
         <>
             <div className="thank-you-card">

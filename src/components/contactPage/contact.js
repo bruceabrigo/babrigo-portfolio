@@ -8,6 +8,7 @@ const Contact = (props) => {
     const form = useRef();
     const navigate = useNavigate()
 
+    // emailjs will act as our plugin to allow clients to send email
     const sendEmail = (e) => {
         e.preventDefault();
         console.log(process.env.REACT_APP_PUBLIC_KEY)
@@ -20,7 +21,8 @@ const Contact = (props) => {
               console.log(error.text);
           })
       };
-
+      
+    // render the contact form below
   return (
     <>
         <div className='contact'>
