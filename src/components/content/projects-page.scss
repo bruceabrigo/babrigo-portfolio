@@ -36,7 +36,6 @@
     transition: opacity 1s;
 }
 .projects-page-card img:hover {
-    height: 400px;
     width: 100%;
     opacity: 100%;
     transition: opacity 1s;
@@ -53,5 +52,8 @@
     }
     .projects-page-card img {
         height: 200px;
+    }
+    .projects-page-card:hover {
+
     }
   }
