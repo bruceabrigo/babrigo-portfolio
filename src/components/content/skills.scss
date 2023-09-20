@@ -1,57 +1,38 @@
 .skills {
-    height: 100vh;
-    background-color: #11823b;
-    text-align: center;
-}
-.skills-title {
-    font-size: 60px;
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 10vh;
-    padding-bottom: 2vh;
-    text-align: center;
-    color: white;
-  }
-  .skillsCard {
-    margin: 0 auto;
-    padding: 25px;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.25);
-    height: 60vh;
-    width: 75%;
-    overflow: hidden;
-    overflow-y: scroll;
-  }
-  
-  .title {
-    padding-bottom: 15px;
-    color: white;
-  }
-  .skillsImgs {
+  height: 100vh;
+  background-color: #11823b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .skills-container {
+    width: 90vw;
+    height: 80vh;
     display: flex;
-    justify-content: space-around;
-    padding-bottom: 50px
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 15px;
+
+    .column {
+      flex: 1;
+      padding: 20px;
+      
+      &:not(:last-child) {
+        border-right: 0.5px solid lightgrey;
+      }
+    }
   }
-  
-  .skillsImgs li {
-    display: inline-block;
-    padding: 0 15px;
-  }
-  .icon{
+}
+
+
+/* Add additional styles for grid items if needed */
+
+.icon{
     height: 6vh;
-  }
-  
-  .backEndTitle {
-    padding-bottom: 25px;
-  }
-  
-  .mongo-icon, .sql-icon {
+} 
+.vscode-icon, .postman-icon, .github-icon, .figma-icon {
     height: 6vh;
-  }
+}
+
   
-  .techTitle {
-    padding-bottom: 25px;
-  }
-  
-  .vscode-icon, .postman-icon, .github-icon, .figma-icon {
-    height: 6vh;
-  }

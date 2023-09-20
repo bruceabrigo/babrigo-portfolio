@@ -70,36 +70,15 @@ const Home = () => {
 
 {/* ------------- SKILLS ------------- */}
             <div className="skills">
-                <h2 className="skills-title">Skills</h2>
-
-                <div class="skillsCard">
-                <h2 class="title">Programming & Scripting</h2>
-                    <div class="skillsImgs">
-                        <ul className="space-card">
-                            <li> <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png" alt="js icon" className="icon"/></li>
-                            <li> <img src="https://cdn.cdnlogo.com/logos/r/85/react.svg" alt="react-icon" className="icon"/></li>
-                            <li> <img src="https://cdn.iconscout.com/icon/free/png-256/python-3521655-2945099.png" alt="python icon" className="icon"/></li>
-                            <li> <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="html icon" className="icon"/> </li>
-                            <li> <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="css icon" className="icon"/></li>
-                            <li> <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png" alt="bootstrap icon" className="icon"/></li>
-                        </ul>
+                <div className="skills-container">
+                    <div className="column">
+                        text
                     </div>
-                <h2 class="title">Back End Development</h2>
-                <div class="skillsImgs">
-                    <ul>
-                        <li> <img src="https://cdn.iconscout.com/icon/free/png-256/mongodb-5-1175140.png" alt="mongo-icon" className="icon"/> </li>
-                        <li> <img src="https://cdn.cdnlogo.com/logos/d/97/django-community.svg" alt="django-icon" className="icon"/></li>
-                        <li> <img src="https://www.freeiconspng.com/thumbs/sql-server-icon-png/sql-server-icon-png-29.png" alt="sql-icon" className="icon"/></li>
-                    </ul>
+                    <div className="column">
+                        text
                     </div>
-                    <h2 class="title">Technologies</h2>
-                    <div class="skillsImgs">
-                        <ul>
-                            <li> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" alt="icon" className="vscode-icon"/> </li>
-                            <li> <img src="https://user-images.githubusercontent.com/7853266/44114706-9c72dd08-9fd1-11e8-8d9d-6d9d651c75ad.png" alt="postman-icon" className="icon"/></li>
-                            <li> <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github-icon" className="icon"/></li>
-                            <li> <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt="figma-icon" className="icon"/></li>
-                        </ul>
+                    <div className="column">
+                        texr
                     </div>
                 </div>
             </div>
