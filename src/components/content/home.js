@@ -72,13 +72,35 @@ const Home = () => {
             <div className="skills">
                 <div className="skills-container">
                     <div className="column">
-                        text
+                        <h2 className="skills-title">Frontend Developer</h2>
+                            <p>I like the freedom to express creativity in frontend and web development to show your eyes cool ways to browse the web!</p>
+                            <p className="summary-title">Languages & frameworks:</p>
+                            <p>JavaScript</p>
+                            <p>React</p>
+                            <p>Liquid</p>
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>SSS</p>
+                            {/* IDEs */}
                     </div>
                     <div className="column">
-                        text
+                        <h2 className="skills-title">Software/Backend Developer</h2>
+                            <p>I likes the freedom to express creativity in frontend and web development to show your eyes cool ways to browse the web!</p>
+                            <p className="summary-title">Languages & frameworks:</p>
+                            <p>Python</p>
+                            <p>C++</p>
+                            <p>SQL</p>
+                            <p>MongoDB</p>
+                            <p>AWS S3</p>
                     </div>
                     <div className="column">
-                        texr
+                        <h2 className="skills-title">Tools and IDEs</h2>
+                            <p>I likes the freedom to express creativity in frontend and web development to show your eyes cool ways to browse the web!</p>
+                            <p className="summary-title">Where I work:</p>
+                            <p>VSCode</p>
+                            <p>XCODE</p>
+                            <p>Postman</p>
+                            <p>Figma</p>
                     </div>
                 </div>
             </div>
