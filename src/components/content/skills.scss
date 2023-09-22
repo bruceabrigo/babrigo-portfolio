@@ -49,4 +49,9 @@
     height: 6vh;
 }
 
-  
+@media screen and (max-width: 600px) {
+    .skills-container {
+        flex-direction: column;
+        overflow-y: scroll;
+    }
+}

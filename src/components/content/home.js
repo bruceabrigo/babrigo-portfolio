@@ -73,7 +73,7 @@ const Home = () => {
                 <div className="skills-container">
                     <div className="column">
                         <h2 className="skills-title">Frontend Developer</h2>
-                            <p>I like the freedom to express creativity in frontend and web development to show your eyes cool ways to browse the web!</p>
+                            <p>I love the freedom to express creativity in frontend and web development to show your eyes cool ways to browse the web!</p>
                             <p className="summary-title">Languages & frameworks:</p>
                             <p>JavaScript</p>
                             <p>React</p>
@@ -85,8 +85,8 @@ const Home = () => {
                     </div>
                     <div className="column">
                         <h2 className="skills-title">Software/Backend Developer</h2>
-                            <p>I likes the freedom to express creativity in frontend and web development to show your eyes cool ways to browse the web!</p>
-                            <p className="summary-title">Languages & frameworks:</p>
+                            <p>I also enjoy working with algorithms and creating databases/apis!</p>
+                            <p className="summary-title">Languages:</p>
                             <p>Python</p>
                             <p>C++</p>
                             <p>SQL</p>
@@ -95,12 +95,13 @@ const Home = () => {
                     </div>
                     <div className="column">
                         <h2 className="skills-title">Tools and IDEs</h2>
-                            <p>I likes the freedom to express creativity in frontend and web development to show your eyes cool ways to browse the web!</p>
+                            <p>These are places I like to work with code and design!</p>
                             <p className="summary-title">Where I work:</p>
                             <p>VSCode</p>
                             <p>XCODE</p>
                             <p>Postman</p>
                             <p>Figma</p>
+                            <p>Amazon Web Services</p>
                     </div>
                 </div>
             </div>
