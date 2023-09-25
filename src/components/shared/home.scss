@@ -100,6 +100,11 @@
         background-position: 0 50%;
     }
   }
+  .toggle-button {
+    display: none; /* Hide the button by default on larger screens */
+    // Add styles for the toggle button as needed
+  }
+  
   @media only screen and (max-width: 900px) {
     .greeting {
       font-size: 20px;
@@ -107,11 +112,8 @@
       padding: 375px 0;
       position: relative;
     }
-    .nav-list, li, a {
-      font-size: 10px;
-      font-weight: 400;
-      text-decoration: none;
-      font-family: 'Montserrat', sans-serif;
+    .nav-list {
+      visibility: hidden;
     }
     h1 {
       color: white;
@@ -142,4 +144,16 @@
       display: inline-block;
       padding: 0px 20px;
     }
+    .toggle-button {
+      display: inline-block; /* Show the button on smaller screens */
+      cursor: pointer;
+    }
+    .bar1, .bar2, .bar3 {
+      width: 25px;
+      background-color: #333;
+      height: 3px;
+      margin: 4px 0;
+      transition: 0.4s;
+    }
+
   }
