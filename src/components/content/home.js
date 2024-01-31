@@ -10,7 +10,6 @@ import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
 
-
     return  (
         <>
             <section>
@@ -80,7 +79,8 @@ const Home = () => {
                             <p>Liquid</p>
                             <p>HTML</p>
                             <p>CSS</p>
-                            <p>SSS</p>
+                            <p>PHP</p>
+                            <p>Docker</p>
                             {/* IDEs */}
                     </div>
                     <div className="column">
@@ -90,6 +90,8 @@ const Home = () => {
                             <p>Python</p>
                             <p>C++</p>
                             <p>SQL</p>
+                            <p>Express</p>
+                            <p>Node</p>
                             <p>MongoDB</p>
                             <p>AWS S3</p>
                     </div>
@@ -110,7 +112,9 @@ const Home = () => {
             <div className="projects">
             <h2 className="proj-title">My works</h2>
                 <div className="project-highlights-container">
-
+                    <div>
+                        <h2>Wddup bro</h2>
+                    </div>
                 </div>
             </div>
 

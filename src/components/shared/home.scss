@@ -81,6 +81,27 @@
     color: black;
     font-size: 40px;
   }
+  // ------------ Project Highlights ------------
+  .projects {
+    background-color: #333;
+    height: 200vh;
+  }
+  .proj-title {
+      color: #fff;
+      font-size: 60px;
+      font-family: 'Montserrat', sans-serif;
+      padding-top: 10vh;
+      padding-bottom: 5px;
+      margin-left: 50px;
+  }
+  .proj-desc {
+      font-family: 'Roboto Slab', serif;    
+  }
+  .project-highlights-container {
+    display: flex;
+    justify-content: center;
+  }
+
 
   footer {
     text-align: center;
