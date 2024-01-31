@@ -108,56 +108,9 @@ const Home = () => {
 
 {/* ------------- PROJECTS ------------- */}
             <div className="projects">
-                <h2 className="proj-title">Projects</h2>
-                <p className="proj-desc">Take a look at my highlighted projects!</p>
-                <div className="container">
-                    <div className="card">
-                        <div className="face face1">
-                            <div className="content">
-                            <img src="/NeatFlightTracker.png"/>
-                            <h3>Neat Flight Tracker</h3>
-                            </div>
-                        </div>
-                        <div className="face face2">
-                            <div className="content">
-                                <p>Full-Stack web app that allows for the tracking of flight numbers and the creation of users, and forum posts.</p>
-                                <a href="https://neatflighttracker.fly.dev/" target="_blank">Site</a>
-                                <a href="https://github.com/bruceabrigo/FlightTracker-FullStack-App" target="_blank">Repo</a>
-                            </div>
-                        </div>
-                    </div>
+            <h2 className="proj-title">My works</h2>
+                <div className="project-highlights-container">
 
-                    <div className="card">
-                        <div className="face face1">
-                            <div className="content">
-                                <img src="/RatchMe.png"/>
-                                <h3>Ratch Me If You Can</h3>
-                            </div> 
-                        </div>
-                        <div className="face face2">
-                            <div className="content">
-                                <p>Front-End 2D JavaScript Canvas game with a countdown timer where a player must avoid targets and collect points!</p>
-                                <a href="https://bruceabrigo.github.io/ratch-me-if-you-can/" target="_blank">Play</a>
-                                <a href="https://github.com/bruceabrigo/ratch-me-if-you-can" target="_blank">Repo</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="card">
-                        <div className="face face1">
-                            <div className="content">
-                                <img src="/BabrigoMedia.png"/>
-                                <h3>BAbrigo Media</h3>
-                            </div>
-                        </div>
-                    <div className="face face2">
-                        <div className="content">
-                                <p>DJango photography website that showcases photography portfolios</p>
-                                <a href="https://babrigo-media.onrender.com" target="_blank">Site</a>
-                                <a href="https://github.com/bruceabrigo/babrigo-media" target="_blank">Repo</a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
 
