@@ -31,7 +31,12 @@
     background-color: rgba($color: #000000, $alpha: 0.15);
     position: fixed;
     top: 0;
+    transition: top 1.5s;
     z-index: 2;
+
+    &.scrolled {
+      top: -100px;
+    }
   }
   h1 {
     color: white;
@@ -100,6 +105,28 @@
   .project-highlights-container {
     display: flex;
     justify-content: center;
+  }
+
+  .project-highlights-content {
+    margin-left: 125px;
+    display: flex;
+    justify-content: right;
+    box-sizing: border-box;
+    margin-top: 50px;
+    color: white;
+    .left {
+      flex: 0 0; /* flex-grow, flex-shrink, flex-basis */
+      display: flex;
+      height: 400px;
+      margin-right: 25px;
+  } 
+  
+    .right {
+        flex: 0 0 600px; /* flex-grow, flex-shrink, flex-basis */
+        font-size: 15px;
+        margin-right: auto;
+        height: 400px;
+    }
   }
 
 

@@ -112,8 +112,16 @@ const Home = () => {
             <div className="projects">
             <h2 className="proj-title">My works</h2>
                 <div className="project-highlights-container">
-                    <div>
-                        <h2>Wddup bro</h2>
+                    <div className="project-highlights-content"> 
+                        <div className="left">
+                            <img className="" src="/snakeGame.png" alt="snake-game"/>
+                        </div>
+                        <div className="right">
+                            <h2>Snake Game</h2>
+                            <p>A Windows based game application with the objective to collect food that grows the snakes length in order to obtain a high score. Users can control snake movement with WASD keys and collision mapping with game borders and snake body.</p>
+                            <br></br>
+                            <h4>Python</h4>
+                        </div>
                     </div>
                 </div>
             </div>
