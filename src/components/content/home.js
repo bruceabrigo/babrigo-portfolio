@@ -58,10 +58,10 @@ const Home = () => {
                         I also enjoy photography, aviation, sneakers, and street fashion!
                     </p>
                     <Link to='https://www.linkedin.com/in/bruceabrigo/' target="_blank" >
-                        <img src="/linked-in.png" className="icon"/>
+                        <img src="/linked-in.png" className="icon" alt="LinkedIn"/>
                     </Link>
                     <Link to='https://github.com/bruceabrigo' target="_blank" >
-                        <img src="/github.png" className="icon"/>
+                        <img src="/github.png" className="icon" alt="Github"/>
                     </Link>
                 </div>
             </div>
@@ -112,7 +112,7 @@ const Home = () => {
             <div className="projects">
             <h2 className="proj-title">My works</h2>
                 <div className="project-highlights-container">
-                    <div className="project-highlights-content"> 
+                    <div className="projects-left"> 
                         <div className="left">
                             <img className="" src="/snakeGame.png" alt="snake-game"/>
                         </div>
@@ -121,6 +121,17 @@ const Home = () => {
                             <p>A Windows based game application with the objective to collect food that grows the snakes length in order to obtain a high score. Users can control snake movement with WASD keys and collision mapping with game borders and snake body.</p>
                             <br></br>
                             <h4>Python</h4>
+                        </div>
+                    </div>
+                    <div className="projects-right"> 
+                        <div className="left">
+                            <h2>Music Taste</h2>
+                            <p>A web application that returns active Spotify user data. Music Taste takes Spotify's api to authenticate users and return their top 5 tracks and artists from the last 30 days. Users can also download a png of their returned data to be shared across various platforms.</p>
+                            <br></br>
+                            <h4>Express&nbsp;&nbsp;&nbsp;&nbsp;Node&nbsp;&nbsp;&nbsp;&nbsp;JavaScript&nbsp;&nbsp;&nbsp;&nbsp;Liquid Views</h4>
+                        </div>
+                        <div className="right">
+                            <img className="" src="/MusicTaste.png" alt="Music-taste-game"/>
                         </div>
                     </div>
                 </div>
