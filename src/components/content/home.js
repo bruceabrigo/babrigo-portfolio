@@ -9,7 +9,6 @@ import { Link } from "react-router-dom"
 import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
-
     return  (
         <>
             <section>
@@ -132,6 +131,17 @@ const Home = () => {
                         </div>
                         <div className="right">
                             <img className="" src="/MusicTaste.png" alt="Music-taste-game"/>
+                        </div>
+                    </div>
+                    <div className="projects-left"> 
+                        <div className="left">
+                            <img className="" src="/BabrigoMedia.png" alt="Babrigo-media"/>
+                        </div>
+                        <div className="right">
+                            <h2>Babrigo Media</h2>
+                            <p>A web application that showcases a photography portfolio. Users can create accounts and access public collections, own collections, as well as leave reviews, and submit contact forms. </p>
+                            <br></br>
+                            <h4>Python&nbsp;&nbsp;&nbsp;&nbsp;Djano&nbsp;&nbsp;&nbsp;&nbsp;SQL&nbsp;&nbsp;&nbsp;&nbsp;PosgreSQL&nbsp;&nbsp;&nbsp;&nbsp;AWS(S3)&nbsp;&nbsp;&nbsp;&nbsp;</h4>
                         </div>
                     </div>
                 </div>

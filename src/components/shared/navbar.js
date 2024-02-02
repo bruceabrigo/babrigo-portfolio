@@ -13,10 +13,10 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop = window.scrollY;
+      const scrollDown = window.scrollY;
 
       // Update the state based on the scroll position
-      setIsScrolled(scrollTop > 0);
+      setIsScrolled(scrollDown > 0);
     };
 
     // Attach the scroll event listener

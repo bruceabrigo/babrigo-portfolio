@@ -20,6 +20,7 @@
   li:hover {
     color: #445626;
   }
+
   header {
     display: flex;
     justify-content: space-evenly;
@@ -38,6 +39,7 @@
       top: -100px;
     }
   }
+
   h1 {
     color: white;
     font-size: 30px;
@@ -117,6 +119,10 @@
       flex: 0 0; /* flex-grow, flex-shrink, flex-basis */
       height: 400px;
       margin-right: 25px;
+      
+      img {
+        height: 325px;
+      }
   } 
   
     .right {
