@@ -32,11 +32,6 @@ const Navbar = () => {
     <>
       <header className={isScrolled ? "scrolled" : ""}>
         {/* Navbar links */}
-        <ul className="navbar">
-          <Link to="/projects" className="nav-list">
-            Projects
-          </Link>
-        </ul>
         <Link to="/">
           {" "}
           <h1>

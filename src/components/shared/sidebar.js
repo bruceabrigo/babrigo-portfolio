@@ -11,7 +11,6 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
             </button>
             {/* Add more content here */}
             <div className="side-nav-content">
-                <Link to="/projects" className="side-nav-links" onClick={toggleSidebar}>Projects</Link>
                 <Link to="/contact" className="side-nav-links" onClick={toggleSidebar}>Contact</Link>
             </div>
         </div>
