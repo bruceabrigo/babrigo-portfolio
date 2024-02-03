@@ -149,10 +149,13 @@
     }
   
     .right {
-        flex: 0 0 600px; 
-        font-size: 15px;
-        margin-right: auto;
-        height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex: 0 0 600px; 
+      font-size: 15px;
+      margin-right: auto;
+      height: 325px;
     }
   }
 
@@ -164,8 +167,11 @@
     margin-top: 50px;
     color: white;
     .left {
-      flex: 0 0 600px; /* flex-grow, flex-shrink, flex-basis */
-      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex: 0 0 600px; 
+      height: 325px;
       margin-right: 25px;
       text-align: right;
   } 
@@ -180,13 +186,21 @@
     }
   
     .right {
-        flex: 0 0; /* flex-grow, flex-shrink, flex-basis */
+        flex: 0 0; 
         font-size: 15px;
         margin-right: auto;
         height: 400px;
     }
   }
 
+  .icon-projects {
+    height: 40px;
+  }
+
+  .icon-projects:hover {
+    opacity: 50%;
+    transition: 0.5s;
+  }
 
   footer {
     text-align: center;

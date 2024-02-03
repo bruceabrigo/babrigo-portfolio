@@ -1,7 +1,6 @@
 import React from "react";
 import './about-me.scss'
 import './skills.scss'
-import './projects-page.scss'
 import './proj-cards.scss'
 import BabrigoMedia from "../../images/BabrigoMedia.png";
 import MusicTaste from "../../images/MusicTaste.png";
@@ -134,23 +133,37 @@ const Home = () => {
                 <div className="project-highlights-container">
                     <div className="projects-left"> 
                         <div className="left">
-                        <div onClick={visitSnakeGame} style={{ backgroundImage: `url(${snakeGame})`, backgroundSize: "", backgroundRepeat: "no-repeat", height: "325px", width: "365px", display: "flex", justifyContent: "center", alignItems: "center", color: "#ffffff",  fontSize: "24px", fontWeight: "bold", textAlign: "center", textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)"}}>
-                                <span className="visit-site">Visit Site</span>
-                        </div>
+                            <div onClick={visitSnakeGame} style={{ backgroundImage: `url(${snakeGame})`, backgroundSize: "", backgroundRepeat: "no-repeat", height: "325px", width: "365px", display: "flex", justifyContent: "center", alignItems: "center", color: "#ffffff",  fontSize: "24px", fontWeight: "bold", textAlign: "center", textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)"}}>
+                                    <span className="visit-site">Visit Site</span>
+                            </div>
                         </div>
                         <div className="right">
-                            <h2>Snake Game</h2>
-                            <p>A Windows based game application with the objective to collect food that grows the snakes length in order to obtain a high score. Users can control snake movement with WASD keys and collision mapping with game borders and snake body.</p>
-                            <br></br>
-                            <h4>Python</h4>
+                            <div>
+                                <h2>Snake Game</h2>
+                                <p>A Windows based game application with the objective to collect food that grows the snakes length in order to obtain a high score. Users can control snake movement with WASD keys and collision mapping with game borders and snake body.</p>
+                                <br></br>
+                                <h4>Python</h4>
+                            </div>
+                            <div>
+                            <Link to='https://github.com/bruceabrigo/Python_Snake_Game' target="_blank" >
+                                <img src="/githubWhite.png" className="icon-projects" alt="Github"/>
+                            </Link>
+                            </div>
                         </div>
                     </div>
                     <div className="projects-right"> 
                         <div className="left">
+                            <div>
                             <h2>Music Taste</h2>
-                            <p>A web application that returns active Spotify user data. Music Taste takes Spotify's api to authenticate users and return their top 5 tracks and artists from the last 30 days. Users can also download a png of their returned data to be shared across various platforms.</p>
-                            <br></br>
-                            <h4>Express&nbsp;&nbsp;&nbsp;&nbsp;Node&nbsp;&nbsp;&nbsp;&nbsp;JavaScript&nbsp;&nbsp;&nbsp;&nbsp;Liquid Views</h4>
+                                <p>A web application that returns active Spotify user data. Music Taste takes Spotify's api to authenticate users and return their top 5 tracks and artists from the last 30 days. Users can also download a png of their returned data to be shared across various platforms.</p>
+                                <br></br>
+                                <h4>Express&nbsp;&nbsp;&nbsp;&nbsp;Node&nbsp;&nbsp;&nbsp;&nbsp;JavaScript&nbsp;&nbsp;&nbsp;&nbsp;Liquid Views</h4>
+                            </div>
+                            <div>
+                            <Link to='https://github.com/bruceabrigo/music-taste' target="_blank" >
+                                <img src="/githubWhite.png" className="icon-projects" alt="Github"/>
+                            </Link>
+                            </div>
                         </div>
                         <div className="right">
                             <div onClick={visitMusicTaste} style={{ backgroundImage: `url(${MusicTaste})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "325px", width: "650px", display: "flex", justifyContent: "center", alignItems: "center", color: "#ffffff",  fontSize: "24px", fontWeight: "bold", textAlign: "center", textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)"}}>
@@ -165,10 +178,17 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="right">
+                            <div>
                             <h2>Babrigo Media</h2>
                             <p>A web application that showcases a photography portfolio. Users can create accounts and access public collections, own collections, as well as leave reviews, and submit contact forms. </p>
                             <br></br>
                             <h4>Python&nbsp;&nbsp;&nbsp;&nbsp;Djano&nbsp;&nbsp;&nbsp;&nbsp;SQL&nbsp;&nbsp;&nbsp;&nbsp;PosgreSQL&nbsp;&nbsp;&nbsp;&nbsp;AWS(S3)&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                            </div>
+                            <div>
+                            <Link to='https://github.com/bruceabrigo/babrigo-media' target="_blank" >
+                                <img src="/githubWhite.png" className="icon-projects" alt="Github"/>
+                            </Link>
+                            </div>
                         </div>
                     </div>
                 </div>
