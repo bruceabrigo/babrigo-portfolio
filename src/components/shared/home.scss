@@ -104,9 +104,17 @@
   .proj-desc {
       font-family: 'Roboto Slab', serif;    
   }
-  .project-highlights-container {
+  // .project-highlights-container {
+  //   img {
+  //     height: 325px;
+  //   }
+  //   img:hover {
+  //     cursor: pointer;
+  //     opacity: 50%;
+  //     transition: 0.5s;
+  //   }
 
-  }
+  // }
 
   .projects-left {
     margin-left: 125px;
@@ -116,17 +124,24 @@
     margin-top: 50px;
     color: white;
     .left {
-      flex: 0 0; /* flex-grow, flex-shrink, flex-basis */
+      flex: 0 0; 
       height: 400px;
       margin-right: 25px;
-      
-      img {
-        height: 325px;
+      width: 100%;
+      text-align: center;
+    } 
+    .visit-site {
+      display: none;
+    }
+    .left:hover{
+      .visit-site {
+        display: block;
       }
-  } 
+      cursor: pointer;
+    }
   
     .right {
-        flex: 0 0 600px; /* flex-grow, flex-shrink, flex-basis */
+        flex: 0 0 600px; 
         font-size: 15px;
         margin-right: auto;
         height: 400px;
@@ -146,16 +161,21 @@
       margin-right: 25px;
       text-align: right;
   } 
+    .visit-site {
+      display: none;
+    }
+    .right:hover {
+      .visit-site {
+        display: block;
+      }
+      cursor: pointer;
+    }
   
     .right {
         flex: 0 0; /* flex-grow, flex-shrink, flex-basis */
         font-size: 15px;
         margin-right: auto;
         height: 400px;
-
-        img {
-          height: 325px;
-        }
     }
   }
 

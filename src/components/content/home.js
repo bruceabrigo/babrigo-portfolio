@@ -3,12 +3,32 @@ import './about-me.scss'
 import './skills.scss'
 import './projects-page.scss'
 import './proj-cards.scss'
+import BabrigoMedia from "../../images/BabrigoMedia.png";
+import MusicTaste from "../../images/MusicTaste.png";
+import snakeGame from "../../images/snakeGame.png"
 import { Link } from "react-router-dom"
 
 
 import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
+
+    const visitBabrigoMedia = () => {
+        console.log('clicked')
+        window.open("https://babrigo-media.onrender.com/", "_blank")
+    }
+    const visitMusicTaste = () => {
+        console.log('clicked')
+        window.open("https://musictaste.onrender.com/", "_blank")
+    }
+    const visitSnakeGame = () => {
+        console.log('clicked')
+        window.open("https://github.com/bruceabrigo/Python_Snake_Game", "_blank")
+    }
+    // const handleClick = () => {
+    //     console.log('clicked')
+    //     window.open("https://babrigo-media.onrender.com/", "_blank")
+    // }
     return  (
         <>
             <section>
@@ -108,12 +128,15 @@ const Home = () => {
             </div>
 
 {/* ------------- PROJECTS ------------- */}
+
             <div className="projects">
             <h2 className="proj-title">My works</h2>
                 <div className="project-highlights-container">
                     <div className="projects-left"> 
                         <div className="left">
-                            <img className="" src="/snakeGame.png" alt="snake-game"/>
+                        <div onClick={visitSnakeGame} style={{ backgroundImage: `url(${snakeGame})`, backgroundSize: "", backgroundRepeat: "no-repeat", height: "325px", width: "365px", display: "flex", justifyContent: "center", alignItems: "center", color: "#ffffff",  fontSize: "24px", fontWeight: "bold", textAlign: "center", textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)"}}>
+                                <span className="visit-site">Visit Site</span>
+                        </div>
                         </div>
                         <div className="right">
                             <h2>Snake Game</h2>
@@ -130,12 +153,16 @@ const Home = () => {
                             <h4>Express&nbsp;&nbsp;&nbsp;&nbsp;Node&nbsp;&nbsp;&nbsp;&nbsp;JavaScript&nbsp;&nbsp;&nbsp;&nbsp;Liquid Views</h4>
                         </div>
                         <div className="right">
-                            <img className="" src="/MusicTaste.png" alt="Music-taste-game"/>
+                            <div onClick={visitMusicTaste} style={{ backgroundImage: `url(${MusicTaste})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "325px", width: "650px", display: "flex", justifyContent: "center", alignItems: "center", color: "#ffffff",  fontSize: "24px", fontWeight: "bold", textAlign: "center", textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)"}}>
+                                <span className="visit-site">Visit Site</span>
+                            </div>     
                         </div>
                     </div>
                     <div className="projects-left"> 
                         <div className="left">
-                            <img className="" src="/BabrigoMedia.png" alt="Babrigo-media"/>
+                            <div onClick={visitBabrigoMedia} style={{ backgroundImage: `url(${BabrigoMedia})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "325px", width: "650px", display: "flex", justifyContent: "center", alignItems: "center", color: "#ffffff",  fontSize: "24px", fontWeight: "bold", textAlign: "center", textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)"}}>
+                                <span className="visit-site">Visit Site</span>
+                            </div>
                         </div>
                         <div className="right">
                             <h2>Babrigo Media</h2>
