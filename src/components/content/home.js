@@ -1,7 +1,7 @@
 import React from "react";
 import './about-me.scss'
 import './skills.scss'
-import './proj-cards.scss'
+import './projects.scss'
 import BabrigoMedia from "../../images/BabrigoMedia.png";
 import MusicTaste from "../../images/MusicTaste.png";
 import snakeGame from "../../images/snakeGame.png"
@@ -127,14 +127,14 @@ const Home = () => {
             </div>
 
 {/* ------------- PROJECTS ------------- */}
-
+                            {/* , backgroundSize: "cover", backgroundRepeat: "no-repeat", display: "flex", justifyContent: "center", alignItems: "center", color: "#ffffff",  fontSize: "24px", fontWeight: "bold", textAlign: "center", textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)"}} */}
             <div className="projects">
             <h2 className="proj-title">My works</h2>
                 <div className="project-highlights-container">
                     <div className="projects-left"> 
                         <div className="left">
-                            <div onClick={visitSnakeGame} style={{ backgroundImage: `url(${snakeGame})`, backgroundSize: "", backgroundRepeat: "no-repeat", height: "325px", width: "365px", display: "flex", justifyContent: "center", alignItems: "center", color: "#ffffff",  fontSize: "24px", fontWeight: "bold", textAlign: "center", textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)"}}>
-                                    <span className="visit-site">Visit Site</span>
+                            <div className="project-button" onClick={visitSnakeGame} style={{ backgroundImage: `url(${snakeGame})`, width: "360px"}}>
+                                    <span className="visit-site">Visit Repo</span>
                             </div>
                         </div>
                         <div className="right">
@@ -166,14 +166,14 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="right">
-                            <div onClick={visitMusicTaste} style={{ backgroundImage: `url(${MusicTaste})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "325px", width: "650px", display: "flex", justifyContent: "center", alignItems: "center", color: "#ffffff",  fontSize: "24px", fontWeight: "bold", textAlign: "center", textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)"}}>
+                            <div className="project-button" onClick={visitMusicTaste} style={{ backgroundImage: `url(${MusicTaste})`}}>
                                 <span className="visit-site">Visit Site</span>
                             </div>     
                         </div>
                     </div>
                     <div className="projects-left"> 
                         <div className="left">
-                            <div onClick={visitBabrigoMedia} style={{ backgroundImage: `url(${BabrigoMedia})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "325px", width: "650px", display: "flex", justifyContent: "center", alignItems: "center", color: "#ffffff",  fontSize: "24px", fontWeight: "bold", textAlign: "center", textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)"}}>
+                            <div className="project-button" onClick={visitBabrigoMedia} style={{ backgroundImage: `url(${BabrigoMedia})` }}>
                                 <span className="visit-site">Visit Site</span>
                             </div>
                         </div>
