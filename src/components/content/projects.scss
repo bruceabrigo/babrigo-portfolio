@@ -134,8 +134,18 @@
     background-color: #3b3c36;
     font-family: 'Roboto Slab', serif;    
   }
-@media only screen and (max-width: 900px) {
-      .project-highlight-container {
-        display: inline-block;
-      }
+
+@media only screen and (max-width: 1415px) {
+      .projects-right {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .projects-right .left {
+        flex: 0 0;
+        padding: 5px;
+        height: 1px;
+        margin: 0px;
+        text-align: left;
+    }
   }
