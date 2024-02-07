@@ -136,16 +136,28 @@
   }
 
 @media only screen and (max-width: 1415px) {
-      .projects-right {
-        display: flex;
+    .projects-right {
         flex-direction: column;
     }
-    
     .projects-right .left {
         flex: 0 0;
         padding: 5px;
-        height: 1px;
         margin: 0px;
         text-align: left;
+    }
+    .projects-left {
+        display: flex;
+        flex-direction: column;
+    }
+    .projects-left .right {
+        flex: 0 0;
+        padding: 5px;
+        margin: 0px;
+        text-align: left;
+    }
+    .icon-projects {
+        flex: 0 0 ;
+        border: 1px solid green;
+        margin: 0;
     }
   }
