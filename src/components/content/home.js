@@ -184,7 +184,7 @@ const Home = () => {
                             <br></br>
                             <h4>Python&nbsp;&nbsp;&nbsp;&nbsp;Djano&nbsp;&nbsp;&nbsp;&nbsp;SQL&nbsp;&nbsp;&nbsp;&nbsp;PosgreSQL&nbsp;&nbsp;&nbsp;&nbsp;AWS(S3)&nbsp;&nbsp;&nbsp;&nbsp;</h4>
                             </div>
-                            <div className="non">
+                            <div>
                             <Link to='https://github.com/bruceabrigo/babrigo-media' target="_blank" >
                                 <img src="/githubWhite.png" className="icon-projects" alt="Github"/>
                             </Link>

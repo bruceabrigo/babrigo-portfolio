@@ -15,7 +15,7 @@
       font-family: 'Roboto Slab', serif;    
   }
   .project-highlights-container {
-    border: 1px solid green;
+    // border: 1px solid green;
   }
 
   .projects-left {
@@ -136,7 +136,7 @@
   }
 
 @media only screen and (max-width: 1415px) {
-    .projects-right {
+    .projects-right, .projects-left{
         flex-direction: column;
     }
     .projects-right .left {
@@ -156,8 +156,13 @@
         text-align: left;
     }
     .icon-projects {
-        flex: 0 0 ;
-        border: 1px solid green;
-        margin: 0;
+        display: block;
+    }
+    .project-button {
+      max-width: 500px;
+      background-position: center;
+    }
+    .projects {
+      height: inherit;
     }
   }
