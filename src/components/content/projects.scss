@@ -1,7 +1,8 @@
 // ------------ Project Highlights ------------
 .projects {
     background-color: #333;
-    height: 1500px;
+    margin: 0;
+    border: 1px solid;
   }
   .proj-title {
       color: #fff;
@@ -15,7 +16,7 @@
       font-family: 'Roboto Slab', serif;    
   }
   .project-highlights-container {
-    // border: 1px solid green;
+    margin: 25px;
   }
 
   .projects-left {

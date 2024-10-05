@@ -60,7 +60,7 @@ const Home = () => {
                 </div>
                 <div className="right">
                     <p className="about-me-intro">
-                        My name is Bruce Abrigo, and I'm a software developer!
+                        My name is Bruce Abrigo, and I'm a software developer and current Packaged Applicatoin Developer at Accenture!
                     </p>
                     <br/>
                     <p>
@@ -131,6 +131,26 @@ const Home = () => {
             <div className="projects">
             <h2 className="proj-title">My works</h2>
                 <div className="project-highlights-container">
+                <div className="projects-right"> 
+                        <div className="left">
+                            <div>
+                            <h2>Neat Flight Tracker</h2>
+                                <p>A full stack web application with third-party API and RESTFUL API integration for tracking live flight data and interacting with other aviation enthusiats!</p>
+                                <br></br>
+                                <h4>Express&nbsp;&nbsp;&nbsp;&nbsp;Node&nbsp;&nbsp;&nbsp;&nbsp;JavaScript&nbsp;&nbsp;&nbsp;&nbsp;Liquid Views</h4>
+                            </div>
+                            <div>
+                            <Link to='https://github.com/bruceabrigo/music-taste' target="_blank" >
+                                <img src="/githubWhite.png" className="icon-projects" alt="Github"/>
+                            </Link>
+                            </div>
+                        </div>
+                        <div className="right">
+                            <div className="project-button" onClick={visitMusicTaste} style={{ backgroundImage: `url(${MusicTaste})`}}>
+                                <span className="visit-site">Visit Site</span>
+                            </div>     
+                        </div>
+                    </div>
                     <div className="projects-left"> 
                         <div className="left">
                             <div className="project-button" onClick={visitSnakeGame} style={{ backgroundImage: `url(${snakeGame})`, width: "360px"}}>
