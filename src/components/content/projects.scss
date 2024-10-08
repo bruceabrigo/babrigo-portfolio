@@ -48,6 +48,10 @@
         text-align: center;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
+    .spaced {
+      margin-right: 20px; /* Adjust the spacing as needed */
+  }
+  
     .visit-site {
       display: none;
     }
@@ -160,7 +164,7 @@
         display: block;
     }
     .project-button {
-      max-width: 500px;
+      max-width: 225px;
       background-position: center;
     }
     .projects {

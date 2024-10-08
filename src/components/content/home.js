@@ -13,16 +13,16 @@ import { TypeAnimation } from "react-type-animation";
 const Home = () => {
 
     const visitBabrigoMedia = () => {
-        console.log('clicked')
         window.open("https://babrigo-media.onrender.com/", "_blank")
     }
     const visitMusicTaste = () => {
-        console.log('clicked')
         window.open("https://musictaste.onrender.com/", "_blank")
     }
     const visitSnakeGame = () => {
-        console.log('clicked')
         window.open("https://github.com/bruceabrigo/Python_Snake_Game", "_blank")
+    }
+    const visitFlighTracker = () => {
+        window.open("https://flighttracker-fullstack-app.fly.dev/", "_blank")
     }
     // const handleClick = () => {
     //     console.log('clicked')
@@ -131,26 +131,6 @@ const Home = () => {
             <div className="projects">
             <h2 className="proj-title">My works</h2>
                 <div className="project-highlights-container">
-                <div className="projects-right"> 
-                        <div className="left">
-                            <div>
-                            <h2>Neat Flight Tracker</h2>
-                                <p>A full stack web application with third-party API and RESTFUL API integration for tracking live flight data and interacting with other aviation enthusiats!</p>
-                                <br></br>
-                                <h4>Express&nbsp;&nbsp;&nbsp;&nbsp;Node&nbsp;&nbsp;&nbsp;&nbsp;JavaScript&nbsp;&nbsp;&nbsp;&nbsp;Liquid Views</h4>
-                            </div>
-                            <div>
-                            <Link to='https://github.com/bruceabrigo/music-taste' target="_blank" >
-                                <img src="/githubWhite.png" className="icon-projects" alt="Github"/>
-                            </Link>
-                            </div>
-                        </div>
-                        <div className="right">
-                            <div className="project-button" onClick={visitMusicTaste} style={{ backgroundImage: `url(${MusicTaste})`}}>
-                                <span className="visit-site">Visit Site</span>
-                            </div>     
-                        </div>
-                    </div>
                     <div className="projects-left"> 
                         <div className="left">
                             <div className="project-button" onClick={visitSnakeGame} style={{ backgroundImage: `url(${snakeGame})`, width: "360px"}}>
@@ -202,7 +182,12 @@ const Home = () => {
                             <h2>Babrigo Media</h2>
                             <p>A web application that showcases a photography portfolio. Users can create accounts and access public collections, own collections, as well as leave reviews, and submit contact forms. </p>
                             <br></br>
-                            <h4>Python&nbsp;&nbsp;&nbsp;&nbsp;Djano&nbsp;&nbsp;&nbsp;&nbsp;SQL&nbsp;&nbsp;&nbsp;&nbsp;PosgreSQL&nbsp;&nbsp;&nbsp;&nbsp;AWS(S3)&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                            <h4>
+                                <span class="spaced">Express</span>
+                                <span class="spaced">Node</span>
+                                <span class="spaced">JavaScript</span>
+                                <span class="spaced">Liquid Views</span>
+                            </h4>
                             </div>
                             <div>
                             <Link to='https://github.com/bruceabrigo/babrigo-media' target="_blank" >
